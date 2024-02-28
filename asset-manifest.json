@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/trichy-responsive-desing/static/css/main.f45ddc69.css",
+    "main.js": "/trichy-responsive-desing/static/js/main.b103051b.js",
+    "static/media/Screenshot 2024-02-24 204813.png": "/trichy-responsive-desing/static/media/Screenshot 2024-02-24 204813.5a589e05f20cae0dc29c.png",
+    "static/media/Screenshot 2024-02-24 204908.png": "/trichy-responsive-desing/static/media/Screenshot 2024-02-24 204908.1537b141393c60a5bcfd.png",
+    "static/media/Screenshot 2024-02-24 204935.png": "/trichy-responsive-desing/static/media/Screenshot 2024-02-24 204935.e4c0d9ef298359a2174f.png",
+    "static/media/Screenshot 2024-02-24 204922.png": "/trichy-responsive-desing/static/media/Screenshot 2024-02-24 204922.fa278d62ddec8af36ee3.png",
+    "index.html": "/trichy-responsive-desing/index.html",
+    "main.f45ddc69.css.map": "/trichy-responsive-desing/static/css/main.f45ddc69.css.map",
+    "main.b103051b.js.map": "/trichy-responsive-desing/static/js/main.b103051b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f45ddc69.css",
+    "static/js/main.b103051b.js"
+  ]
+}
