@@ -1,0 +1,135 @@
+.container-main2
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-top:70px ;
+}
+.fulldiv
+{
+   
+   display: flex;
+   
+}
+.right
+{
+    width: 50%;
+    background-color: rgb(235, 253, 254);
+    border-radius: 8px 0px 0px 8px;
+}
+.left
+{
+    width: 50%;
+    background-color:rgb(235, 253, 254);
+    border-radius: 0px 8px 8px 0px;
+  
+}
+.right-little
+{
+    margin: 30px;
+}
+.right-little section
+{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.get-started
+{
+    text-decoration: underline;
+    color:  rgb(0, 191, 255);;
+}
+.left-1
+{
+    margin: 10px 10px 10px 10px;
+    background-image: linear-gradient(pink,orange);
+    border-radius: 7px ;
+   
+    display: flex;
+
+}
+
+.left-2
+{
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 7px 7px 0px 0px ;
+    /* min-height: 186px; */
+}
+.left-3
+{
+    margin: 15px 15px 0px 15px;
+    /* position: relative; */
+}
+.left-3 section{
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line-code
+{
+    color:  rgb(227, 227, 227);
+    background-color: rgb(227, 227, 227);
+    font-size: 7px;
+    border-radius: 10px;
+}
+.message
+{
+    top: -90px;
+    left: 140px;
+    position: relative;
+    transform: rotate(-23deg);
+    padding: 8px 15px;
+    outline:white solid 4px ;
+}
+
+@media only screen and (max-width:767px)and (min-width:320px) {
+    .right-little
+    {
+        margin-bottom: 10px;
+    }
+    .get-started
+    {
+        padding-bottom: 20px;
+    }
+    .fulldiv
+{
+   
+   display: block;
+   
+}
+.right
+{
+    width: 100%;
+}
+.left{
+    width: 100%;
+}
+.left-3 {
+   
+    overflow: hidden;
+}
+.left-3 section {
+   
+    overflow: hidden;
+}
+.message{
+    display: none;
+}
+
+
+}
+@media only screen and (max-width:1186px)and (min-width:767px) {
+  
+    .left-3 section {
+   
+        overflow: hidden;
+    }
+    .left-3 
+    {
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width:1186px)and (min-width:767px) {
+  .message{
+display: none;
+  }
+}

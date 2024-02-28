@@ -1,0 +1,119 @@
+.footer
+{
+    background-color: rgb(16, 16, 81);
+    min-height: 250px;
+    border-radius:50px 30px 0px 0px;
+    margin-top: 50px;
+    color: white;
+}
+.text-center
+{
+    text-align: center;
+}
+.pa-1
+{
+    padding-top: 50px;
+    padding-bottom: 10px;}
+   /* =====switc */
+   .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  /* ======== */
+  .save27
+  {
+    background-color: white;
+    display: inline-block;
+    color: rgb(21, 243, 21);
+    border-radius: 10px;
+    padding: 2px 2px;
+  }
+  .margintop
+  {
+    margin-top: 0px;
+  }
+  .out
+  {
+    position: relative;
+    margin-top: 20px;
+
+
+  }
+  .in
+  {
+    background-color:white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:250px ;
+    height: 60px;
+    top: 50px;
+    border-radius: 10px 10px 0px 0px;
+   
+   
+   
+
+  }
+  .in section{
+    /* margin: 10px 100px 0px 10px; */
+  }
+  .sp{
+    display: inline-block;
+    background: #21a052;
+    border-radius: 10px;position: absolute;
+    top: 10px;
+    left: 560px;
+  }
+  @media only screen and (max-width:1186px)and (min-width:320px) {
+  .sp{
+    display: none;
+  }
+  }
